@@ -83,7 +83,7 @@ nav {
     flex-direction: row;
 }
 
-.info-1{
+/* .info-1{
     display: inline-flex;
     flex-direction: column;
     width: 60%;
@@ -95,14 +95,16 @@ nav {
 
 .info-2{
     display: inline-flex;
-    /* border:1px solid black; */
+    
     flex-direction: column;
     justify-content: space-around;
     width:40%;
-}
+} */
 
 .info-cards{
     display: inline-flex;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
 }
 
 .info-img {
@@ -122,7 +124,6 @@ nav {
 
 .courses {
     background-color: #e3dfdf;
-    border: 1px solid black;
 }
 
 .course-available {
@@ -136,4 +137,30 @@ nav {
 .card{
     width: 27vw;
     margin-bottom: 3vw;
+}
+
+.thesis-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-1{
+    display: inline-flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 32px 24px;
+    border-right:2px solid #d3d3d3;
+}
+
+
+.info-2{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 1.2vw;
+    width:40%;
+}
+
+footer{
+    margin: 16px 24px;
 }
