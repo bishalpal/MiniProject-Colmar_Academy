@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- navigation component -->
-        <div class="row">
+    <!-- <div class="container-fluid"> -->
+    <!-- navigation component -->
+    <!-- <div class="row">
             <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <a class="navbar-brand" href="#">
                     <img src="./images/ic-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -43,10 +43,31 @@
                     </ul>
                 </div>
             </nav>
+        </div> -->
+
+    <nav>
+        <!-- logo and organisation name -->
+        <div class="nav-logo">
+            <a href="#" style="text-decoration: none;">
+                <img src="./images/ic-logo.svg" alt="logo" height="32px" width="32px">
+                <!-- organisation name -->
+                <span style="color: black;">COLMAR</span>ACADEMY
+            </a>
         </div>
 
-        <!-- banner -->
-        <div class="row banner-content">
+        <!-- Menu -->
+        <div class="nav-menu">
+            <a href="#">On Campus</a>
+            <a href="#">Online</a>
+            <a href="#">For Companies</a>
+            <a href="#">Sign in</a>
+        </div>
+    </nav>
+
+
+
+    <!-- banner -->
+    <!-- <div class="row banner-content">
             <div class="row">
                 <div class="col-7 p-0">
                     <img src="./images/banner.jpg" alt="banner-image" class="d-inline-block banner-img">
@@ -54,178 +75,204 @@
                 <div class="col-5 pl-0 pr-30px">
                     <h1 class="banner-h1">Learn something new everyday</h1>
                     <p class="banner-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, animi.</p>
-                    <button class="banner-btn p-0" style="border: 1px solid #272626;"><a  href="#" style="text-decoration: none;">Start Here</a></button>
+                    <button class="banner-btn p-0" style="border: 1px solid #272626;"><a href="#"
+                            style="text-decoration: none;">Start Here</a></button>
                 </div>
             </div>
+        </div> -->
+
+
+
+    <div class="banner">
+
+        <img src="./images/banner.jpg" alt="banner-image" class="banner-img">
+
+        <div class="banner-content">
+            <h1 class="banner-h1">Learn something new everyday</h1>
+            <p class="banner-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, animi.</p>
+            <button class="banner-btn" style="border: 1px solid #272626;">
+                <a href="#" style="text-decoration: none; color: white;">Start Here</a>
+            </button>
         </div>
-
-        <!-- information -->
-        <div class="row">
-            <div class="col-7 p-0">
-                <div class="row">
-                    <img src="./images/information-main.jpg" alt="information-main" class="banner-img">
-                </div>
-                <div class="row">
-                    <h1 class="info-content">It doesn't hurt to keep practicing</h1>
-                    <p class="info-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugiat tempora minus cum
-                        voluptatibus illum natus tenetur nesciunt culpa facilis? Necessitatibus quae quod commodi
-                        debitis minima deserunt molestiae corrupti, earum dolor ut quasi, ipsa, perferendis delectus
-                        itaque.</p>
-                </div>
-                <div class="row">
-                    <p class="info-content">Emanuel, Sr Strategist at Hiring.com</p>
-                </div>
-            </div>
-            <div class="col-5 p-0"> <!-- the side bar stuff - 3 rows. each with an img and some content beside-->
-                <div class="row">
-                    <div class="col-5 p-0">
-                        <img src="./images/information-orientation.jpg" alt="information-orientation"
-                            class="info-images">
-                    </div>
-                    <div class="col-7 p-0">
-                        <p>Orientation Date</p>
-                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-5 p-0">
-                        <img src="./images/information-campus.jpg" alt="information-campus" class="info-images">
-                    </div>
-                    <div class="col-7 p-0">
-                        <p>Our Campus</p>
-                        <p>Find which campus is close by you.</p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-5 p-0">
-                        <img src="./images/information-guest-lecture.jpg" alt="information-guest-lecture"
-                            class="info-images">
-                    </div>
-                    <div class="col-7 p-0">
-                        <p>Our guest lecture</p>
-                        <p>Join a key note with Oliver Sack about music in medical treatment.</p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- courses -->
-        <div class="row courses-content">
-            <div class="row">
-                <h1>Start Learning</h1>
-            </div>
-            <div class="row"> <!-- add the cards over here -->
-                <!-- card 1 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-software.jpg" class="card-img-top" alt="course-software">
-                    <div class="card-body">
-                        <p class="card-text">Software Engineering</p>
-                        <p>COURSES</p>
-                        <p>Web Development, Data Science, IoT, Mobile Development</p>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-computer-art.jpg" class="card-img-top" alt="course-computer-art">
-                    <div class="card-body">
-                        <p class="card-text">Computer Art</p>
-                        <p>COURSES</p>
-                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-                    </div>
-                </div>
-                <!-- card 3 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-design.jpg" class="card-img-top" alt="course-design">
-                    <div class="card-body">
-                        <p class="card-text">Design</p>
-                        <p>COURSES</p>
-                        <p>User experience design, User Research, Visual Design</p>
-                    </div>
-                </div>
-                <!-- card 4 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-data.jpg" class="card-img-top" alt="course-data">
-                    <div class="card-body">
-                        <p class="card-text">Data</p>
-                        <p>COURSES</p>
-                        <p>Data Science, Big Data, SQL, Data Visualization</p>
-                    </div>
-                </div>
-                <!-- card 5 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-business.jpg" class="card-img-top" alt="course-business">
-                    <div class="card-body">
-                        <p class="card-text">Business</p>
-                        <p>COURSES</p>
-                        <p>Product Development, Business Development, Startup</p>
-                    </div>
-                </div>
-                <!-- card 6 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/course-marketing.jpg" class="card-img-top" alt="course-marketing">
-                    <div class="card-body">
-                        <p class="card-text">Marketing</p>
-                        <p>COURSES</p>
-                        <p>Analytics, Content Marketing, Mobile Marketing</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- thesis -->
-        <div class="row">
-            <div class="row">
-                <h1>Thesis exhibit</h1>
-            </div>
-            <div class="row">
-                <div class="col-7"> <!-- video -->
-                    <div class="row">
-                        <video src="./videos/thesis.mp4" width="60%" controls></video>
-                    </div>
-                    <div class="row">
-                        <p>Reimagine Urban</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-                            soluta eaque, aliquid odio minus sunt dignissimos exercitationem,
-                            tempore sit doloremque vel ea porro eos odit maiores id, nostrum iusto
-                            officiis?</p>
-                    </div>
-                </div>
-
-                <div class="col-5"> <!-- additional info with pictures -->
-                    <div class="row">
-                        <div class="col-5">
-                            <img src="./images/thesis-fisma.jpg" alt="thesis-fisma"
-                                class="info-images">
-                        </div>
-                        <div class="col-7">
-                            <p>Fisma : Design and prototype</p>
-                            <p>Designer showcase of new prototype product</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <img src="./images/thesis-now-and-then.jpg" alt="thesis-now-and-then"
-                                class="info-images">
-                        </div>
-                        <div class="col-7">
-                            <p>Now and then</p>
-                            <p>Research study about New York</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <hr>
-        <!-- footer component -->
-        <footer>
-            <p>&copy 2023 Colmar Academy. All rights reserved. <span>Terms Privacy</span></p>
-        </footer>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- information -->
+    <div class="row">
+        <div class="col-7 p-0"> <!-- the big image and the some content stuff -->
+            <div class="row">
+                <img src="./images/information-main.jpg" alt="information-main" class="banner-img">
+            </div>
+            <div class="row">
+                <h1 class="info-content info-h1">It doesn't hurt to keep practicing</h1>
+                <p class="info-content info-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                    fugiat tempora minus cum
+                    voluptatibus illum natus tenetur nesciunt culpa facilis? Necessitatibus quae quod commodilectus
+                    itaque.</p>
+            </div>
+            <div class="row">
+                <p class="info-content info-p">Emanuel, Sr Strategist at Hiring.com</p>
+            </div>
+        </div>
+        <div class="col-5 p-0 info-sidebar">
+            <!-- the side bar stuff - 3 rows. each with an img and some content beside-->
+            <div class="row info-cards">
+                <div class="col-5 p-0  info-images">
+                    <img src="./images/information-orientation.jpg" alt="information-orientation">
+                </div>
+                <div class="col-7 p-0">
+                    <p>Orientation Date</p>
+                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="row info-cards">
+                <div class="col-5 p-0 info-images">
+                    <img src="./images/information-campus.jpg" alt="information-campus">
+                </div>
+                <div class="col-7 p-0">
+                    <p>Our Campus</p>
+                    <p>Find which campus is close by you.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="row info-cards">
+                <div class="col-5 p-0 info-images">
+                    <img src="./images/information-guest-lecture.jpg" alt="information-guest-lecture">
+                </div>
+                <div class="col-7 p-0">
+                    <p>Our guest lecture</p>
+                    <p>Join a key note with Oliver Sack about music in medical treatment.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- courses -->
+    <div class="row courses-content">
+        <div class="row">
+            <h1>Start Learning</h1>
+        </div>
+        <div class="row"> <!-- add the cards over here -->
+            <!-- card 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-software.jpg" class="card-img-top" alt="course-software">
+                <div class="card-body">
+                    <p class="card-text">Software Engineering</p>
+                    <p>COURSES</p>
+                    <p>Web Development, Data Science, IoT, Mobile Development</p>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-computer-art.jpg" class="card-img-top" alt="course-computer-art">
+                <div class="card-body">
+                    <p class="card-text">Computer Art</p>
+                    <p>COURSES</p>
+                    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-design.jpg" class="card-img-top" alt="course-design">
+                <div class="card-body">
+                    <p class="card-text">Design</p>
+                    <p>COURSES</p>
+                    <p>User experience design, User Research, Visual Design</p>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-data.jpg" class="card-img-top" alt="course-data">
+                <div class="card-body">
+                    <p class="card-text">Data</p>
+                    <p>COURSES</p>
+                    <p>Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-business.jpg" class="card-img-top" alt="course-business">
+                <div class="card-body">
+                    <p class="card-text">Business</p>
+                    <p>COURSES</p>
+                    <p>Product Development, Business Development, Startup</p>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/course-marketing.jpg" class="card-img-top" alt="course-marketing">
+                <div class="card-body">
+                    <p class="card-text">Marketing</p>
+                    <p>COURSES</p>
+                    <p>Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- thesis -->
+    <div class="row">
+        <div class="row">
+            <h1>Thesis exhibit</h1>
+        </div>
+        <div class="row">
+            <div class="col-7"> <!-- video -->
+                <div class="row">
+                    <video src="./videos/thesis.mp4" width="60%" controls></video>
+                </div>
+                <div class="row">
+                    <p>Reimagine Urban</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                        soluta eaque, aliquid odio minus sunt dignissimos exercitationem,
+                        tempore sit doloremque vel ea porro eos odit maiores id, nostrum iusto
+                        officiis?</p>
+                </div>
+            </div>
+
+            <div class="col-5"> <!-- additional info with pictures -->
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/thesis-fisma.jpg" alt="thesis-fisma" class="info-images">
+                    </div>
+                    <div class="col-7">
+                        <p>Fisma : Design and prototype</p>
+                        <p>Designer showcase of new prototype product</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/thesis-now-and-then.jpg" alt="thesis-now-and-then" class="info-images">
+                    </div>
+                    <div class="col-7">
+                        <p>Now and then</p>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- footer component -->
+    <footer>
+        <p>&copy 2023 Colmar Academy. All rights reserved. <span>Terms Privacy</span></p>
+    </footer>
+    <!-- </div> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

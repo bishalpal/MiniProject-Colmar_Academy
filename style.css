@@ -1,53 +1,128 @@
-.row, .container-fluid {
+*{
     margin: 0;
     padding: 0;
-    color:#323131
+}
+
+nav {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left: 24px;
+    font-weight: 600;
+}
+
+.nav-logo a{
+    color: grey;
+}
+.nav-menu {
+    margin-right: 24px;
+    display: inline-flex;
+}
+
+.nav-menu a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+.banner {
+    display: flex;
+    padding: 32px 24px;
+    background-color: rgb(195, 194, 194);
+    width: 100%;
 }
 
 .banner-img {
-    width: 90%;
-    margin: 32px 24px;
+    width: 60%;
+    height: auto;
+    margin-right: 24px;
+}
+
+.banner-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
 }
 
 .banner-h1{
-    margin-top: 3em;
-    margin-bottom: 0.6em;
-    padding-right: 4em;
-    color: #323131;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(65, 65, 65);
 }
-
 
 .banner-p{
-    margin-bottom: 1.3em;
-    padding-right: 12em;
-    font-size: 1.1em;
-    color: #323131;
-    font-weight: 700;
+    color: rgb(65, 65, 65);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.banner-btn {
+    background-color: rgb(65, 65, 65);
+    width: 85%;
+    height: 8%;
+}
+
+.banner-btn a{
+    font-size: 1.2rem;
 }
 
 
-.banner-btn a {
-    width: 100px;
-    height: 30px;
-    background-color: #323131;
-    color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .row, .container-fluid {
+
+
+.info-sidebar{
+    padding-bottom: 32px;
 }
-
-
-
-.banner-btn{
-    border: 1px solid #323131;
-    width: 300px;
-    height: 40px;
-    background-color: #323131;
-}
-
 
 .info-content {
     margin-left: 24px;
+    margin-right: 24px;
 }
 
+.info-h1 {
+    margin-bottom: 24px;
+}
+
+.info-p {
+    padding-right: 1.6em;
+    margin-bottom: 32px;
+}
+
+.info-cards{
+    border-bottom: 1px solid #bfbdbd;
+    border-top: 1px solid #bfbdbd;
+    margin-bottom: 1px;
+    padding: 16px;
+}
+
+.info-images {
+    width: 
+}
 
 .span-banner{
     font-weight: bold;
@@ -55,4 +130,4 @@
 
 .banner-content, .courses-content {
     background-color: #cfcece;
-}
+} */
