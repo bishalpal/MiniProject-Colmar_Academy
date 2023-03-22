@@ -58,7 +58,7 @@ nav {
 .banner-h1{
     font-size: 3rem;
     font-weight: bolder;
-    color: rgb(65, 65, 65);
+    color: #414141;
 }
 
 .banner-p{
@@ -120,51 +120,20 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* .row, .container-fluid {
-
-
-.info-sidebar{
-    padding-bottom: 32px;
+.courses {
+    background-color: #e3dfdf;
+    border: 1px solid black;
 }
 
-.info-content {
-    margin-left: 24px;
-    margin-right: 24px;
+.course-available {
+    margin: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
-.info-h1 {
-    margin-bottom: 24px;
+.card{
+    width: 27vw;
+    margin-bottom: 3vw;
 }
-
-.info-p {
-    padding-right: 1.6em;
-    margin-bottom: 32px;
-}
-
-.info-cards{
-    border-bottom: 1px solid #bfbdbd;
-    border-top: 1px solid #bfbdbd;
-    margin-bottom: 1px;
-    padding: 16px;
-}
-
-.info-images {
-    width: 
-}
-
-.span-banner{
-    font-weight: bold;
-}
-
-.banner-content, .courses-content {
-    background-color: #cfcece;
-} */
